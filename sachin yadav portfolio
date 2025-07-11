@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sachin Yadav | Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f6f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    header {
+      text-align: center;
+      background-color: #2c3e50;
+      color: white;
+      padding: 30px 20px;
+      border-radius: 8px 8px 0 0;
+    }
+    header h1 {
+      font-size: 36px;
+    }
+    header p {
+      font-size: 16px;
+      margin-top: 8px;
+    }
+    h2 {
+      color: #2c3e50;
+      border-left: 5px solid #3498db;
+      padding-left: 10px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    .contact p {
+      margin: 4px 0;
+    }
+    .resume-button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #3498db;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background 0.3s ease;
+    }
+    .resume-button:hover {
+      background-color: #2980b9;
+    }
+    footer {
+      text-align: center;
+      font-size: 14px;
+      padding: 20px;
+      color: #777;
+    }
+    @media screen and (max-width: 600px) {
+      .container {
+        padding: 20px;
+      }
+      header h1 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Sachin Yadav</h1>
+      <p>B.Com Final Year Student | Customer Service | Tally Prime</p>
+    </header>
+
+    <div class="section">
+      <h2>Summary</h2>
+      <p>A motivated and responsible B.Com final-year student with hands-on experience in customer handling and guidance. Known for strong communication skills and a helpful attitude. Previously worked at Snow World, Mumbai for 5 months. Also skilled in Tally Prime and MS Office. Looking forward to entry-level roles where I can grow and contribute.</p>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>B.Com (Bachelor of Commerce)</strong> – Final Year<br>
+        Ramniranjan Jhunjhunwala College of Arts, Science & Commerce (Autonomous)</li>
+
+        <li><strong>HSC (12th Commerce)</strong> – 2023<br>
+        Ramniranjan Jhunjhunwala College<br>
+        <strong>Percentage:</strong> 71.33%</li>
+
+        <li><strong>SSC (10th)</strong> – 2021<br>
+        Michael High School<br>
+        <strong>Percentage:</strong> 72.80%</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Work Experience</h2>
+      <p><strong>Customer Guide – Snow World, Mumbai (5 Months)</strong><br>
+      Handled visitors and gave proper safety and experience guidance. Resolved customer queries and ensured smooth operations inside Snow World environment.</p>
+    </div>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>Customer Handling & Guidance</li>
+        <li>Tally Prime (Basic Accounting)</li>
+        <li>MS Office (Word, Excel, PowerPoint)</li>
+        <li>Communication & Teamwork</li>
+        <li>Basic Computer Knowledge</li>
+      </ul>
+    </div>
+
+    <div class="section contact">
+      <h2>Contact</h2>
+      <p><strong>Email:</strong> yadavsachin91679@gmail.com</p>
+      <p><strong>Phone:</strong> +91-9167906845</p>
+      <p><strong>Location:</strong> Kurla, Mumbai, Maharashtra</p>
+    </div>
+
+    <div class="section">
+      <h2>Resume</h2>
+      <a class="resume-button" href="#" download>Download Resume</a>
+      <!-- Replace # with actual PDF link when ready -->
+    </div>
+
+    <footer>
+      &copy; 2025 Sachin Yadav | All Rights Reserved.
+    </footer>
+  </div>
+</body>
+</html>
